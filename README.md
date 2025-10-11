@@ -73,7 +73,4 @@ Each folder in this repository contains a **single algorithm**, implemented from
 - [Climbing Stairs](dynamic_programming/climbing_stairs)
 - [Coin Change](dynamic_programming/coin_change)
 - [Longest Common Subsequence](dynamic_programming/longest_common_subsequence)
-
----
-
-## 🧩 Example Folder Structure
+- 
