@@ -1,0 +1,43 @@
+name: AlgorithmsProject
+options:
+  bundleIdPrefix: com.pedroandrade
+  deploymentTarget:
+    iOS: 14.0
+
+targets:
+  Algorithms:
+    type: framework
+    platform: iOS
+    sources:
+      - path: .
+        includes:
+          - "**/*.swift"
+        excludes:
+          - "**/*Tests.swift"
+
+  AlgorithmsTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: .
+        includes:
+          - "**/*Tests.swift"
+    dependencies:
+      - target: AlgorithmsTests
+    settings:
+      base:
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
+
+schemes:
+  Algorithms:
+    shared: true
+    build:
+      targets:
+        Algorithms: all
+        AlgorithmsTests: [test]
+    test:
+      targets:
+        - name: AlgorithmsTests

@@ -1,0 +1,85 @@
+/.vscode
+# ===============================
+# Xcode & macOS
+# ===============================
+.DS_Store
+*.swp
+*.lock
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+DerivedData/
+build/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+project.xcworkspace/
+
+# ===============================
+# XcodeGen
+# ===============================
+*.xcodeproj
+
+# ===============================
+# Swift Package Manager
+# ===============================
+.swiftpm/
+.build/
+Package.resolved
+
+# ===============================
+# CocoaPods
+# ===============================
+Pods/
+Podfile.lock
+
+# ===============================
+# Carthage
+# ===============================
+Carthage/Build/
+
+# ===============================
+# Fastlane
+# ===============================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# ===============================
+# macOS system files
+# ===============================
+*.icloud
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.tmp
+
+# ===============================
+# Editor/IDE-specific
+# ===============================
+.idea/
+.vscode/
+*.xcworkspace/xcshareddata
+*.xcworkspace/xcuserdata
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Generated Docs or Coverage
+# ===============================
+docs/
+coverage/
+*.gcno
+*.gcda
+*.profraw
+*.profdata
+
+buildServer.json
