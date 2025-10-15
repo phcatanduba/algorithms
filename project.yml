@@ -2,7 +2,7 @@ name: AlgorithmsProject
 options:
   bundleIdPrefix: com.pedroandrade
   deploymentTarget:
-    iOS: 14.0
+    iOS: 16.0
 
 targets:
   Algorithms:

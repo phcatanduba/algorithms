@@ -13,8 +13,8 @@
 extension Algorithms {
     func reverseArray(_ array: [Int]) -> [Int]  {
         var result: [Int] = []
-        for num in stride(from: array.count, to: 0, by: -1) {
-            result.append(num)
+        for index in stride(from: array.count - 1, to: -1, by: -1) {
+            result.append(array[index])
         }
         return result
     }

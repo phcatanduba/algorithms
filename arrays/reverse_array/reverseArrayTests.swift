@@ -9,6 +9,16 @@ class ReverseArray: XCTestCase {
         let result = Algorithms().reverseArray(array)
         
         // Assert
-        XCTAssertEqual(result, array.reversed(), "The addition should be correct.")
+        XCTAssertEqual(result, array.reversed())
+    }
+
+    func testReverseArray2() {
+        // Arrange
+        let array = [13, 2, 2, 2222, 4, 5, 8]
+        // Act
+        let result = Algorithms().reverseArray(array)
+        
+        // Assert
+        XCTAssertEqual(result, array.reversed())
     }
 }
