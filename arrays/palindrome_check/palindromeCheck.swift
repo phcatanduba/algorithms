@@ -1,4 +1,4 @@
-// Reverse Array
+// Palindrome Check
 
 // Checks if a string reads the same forward and backward.
 // Example:
