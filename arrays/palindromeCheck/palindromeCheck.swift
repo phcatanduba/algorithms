@@ -1,6 +1,6 @@
 // Reverse Array
 
-// Check if the string is a palindrome.
+// Checks if a string reads the same forward and backward.
 // Example:
 
 // Input: Space

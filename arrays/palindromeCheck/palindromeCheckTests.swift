@@ -31,4 +31,34 @@ class PalindromeCheck: XCTestCase {
         // Assert
         XCTAssertEqual(result, true)
     }
+
+    func testPalindromeCheck4() {
+        // Arrange
+        let input = "a"
+        // Act
+        let result = Algorithms().palindromeCheck(input)
+        
+        // Assert
+        XCTAssertEqual(result, true)
+    }
+
+    func testPalindromeCheck5() {
+        // Arrange
+        let input = ""
+        // Act
+        let result = Algorithms().palindromeCheck(input)
+        
+        // Assert
+        XCTAssertEqual(result, true)
+    }
+    
+    func testPalindromeCheck6() {
+        // Arrange
+        let input = "racecar"
+        // Act
+        let result = Algorithms().palindromeCheck(input)
+        
+        // Assert
+        XCTAssertEqual(result, true)
+    }
 }
